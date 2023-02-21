@@ -27,7 +27,6 @@ body{
     background-image: var(--cor8);
 }
 
-
 header{
     background-image: var(--cor8);
     text-align: center;
@@ -35,11 +34,10 @@ header{
 
 header > h1{
     font-family: var(--font1);
-    font-size: 2em;
-    height: 90px;
+    font-size: 3em;
     max-width: 100%;
     transition: 0.5s;
-
+    line-height: 1.3em;
 }
 
 header > h1:hover{
@@ -95,7 +93,7 @@ header > section a:visited{
 
 main{
     font-family: var(--font3);
-    min-width: 400px;
+    min-width: 300px;
     max-width: 900px;
     margin: auto;
     padding: 15px;
