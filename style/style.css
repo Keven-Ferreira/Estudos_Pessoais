@@ -119,7 +119,10 @@ main > section#site > p{
     text-align: center;
     font-family: var(--font2);
     padding-top: 1em;
+}
 
+main > section#site > p:hover{
+    color: black;
 }
 
 main > section#site > a{
