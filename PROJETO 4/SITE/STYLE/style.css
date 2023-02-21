@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Tamil:ital,wght@0,600;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;900&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+:root{
+    --cor1: #0C389E;
+    --cor2: #235EEB;
+    --cor3: #4079FF;
+    --cor4: #9E6F00;
+    --cor5: #EBB023;
+    --cor6: black;
+    --cor7: white;
+    --font1: 'Bungee Shade', cursive;
+    --font2: 'Noto Serif Tamil', serif;
+    --font3: 'Roboto Slab', serif;
+}
+
+body{
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor2), var(--cor3));
+}
+
+
+header{
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor2), var(--cor3));
+    text-align: center;
+}
+
+header > h1{
+    font-family: var(--font1);
+    font-size: 2em;
+    height: 90px;
+    margin-top: -16px;
+    max-width: 100%;
+    transition: 0.5s;
+
+}
+
+header > h1:hover{
+    color: white;
+}
+
+header > h3{
+    font-size: 1.7em;
+    font-family: var(--font2);
+    font-weight: bold;
+    color: var(--cor6);
+    transition: 0.5s;
+}
+
+header a {
+    font-family: var(--font2);
+    color: var(--cor6);
+    transition: 0.1s;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: white;
+    text-decoration: underline;
+    
+}
+
+header > section{
+    background-color: var(--cor1);
+    padding: 15px;
+    text-align: left;
+    display: block;
+    box-shadow: -1px 3px 3px rgba(0, 0, 0, 0.42);
+}
+
+header > section a{
+    margin: 0px 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: 0.5s;
+}
+
+header > section a:hover{
+    font-size: 1.3em;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+header > section a:visited{
+    color: white;
+}
+
+main{
+    font-family: var(--font3);
+    min-width: 400px;
+    max-width: 900px;
+    margin: auto;
+    padding: 15px;
+    text-align: justify;
+    background-color: white;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.411);
+} 
+
+main > section p{
+    margin-bottom: 15px;
+    text-indent: 2em;
+    font-size: 1.1em;
+}
+
+main > section#site{
+    background-color: var(--cor4);
+    border-radius: 10px;
+    padding-bottom: 5px;
+    box-shadow: 0px 0px 7px 3px rgba(0, 0, 0, 0.45);
+}
+
+main > section#site > p{
+    color: white;
+    text-align: center;
+    font-family: var(--font2);
+    padding-top: 1em;
+
+}
+
+main > section#site > a{
+    margin: auto;
+    width: 98%;
+    height: 250px;
+    background-color: white;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.438);
+    display: block;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+
+#final{
+    text-align: center;
+    text-indent: none;
+    padding-top: 2em;
+    font-size: 1.3em;
+}
+
+footer{
+    background-color: var(--cor1);
+    color: white;
+    text-align: center;
+    font-size: 1.3em;
+    padding: 5px;
+}
+
+footer a {
+    font-family: var(--font2);
+    color: var(--cor7);
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    font-size: 1.06em;
+}
+
+
+
+
+
+
+
+
+
+
+
