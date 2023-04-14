@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora de juros</title>
+</head>
+<body>
+    <!-- Calculadora de juos compostos -->
+    <!-- Pegar o valor do investimento inicial, multiplicar pela quantidade de meses do investimento e calcular juntamente a taxa média de juros, que será passada ao ano e deverá ser calculada ao mês. -->
+    <!-- Criar uma linha para cada mês que durar o investimento. Utilizar também um botão de limpar. -->
+
+    <main>
+        <div id="cabecario">
+            <h1>Calculadora de juros</h1>
+        </div>
+        <div id="corpo">
+            <p>valor inicialmente investido: <input type="number" name="valor_inicial" id="valor_inicial"></p>
+            <p>Valor a ser investido todos os meses: <input type="number" name="valor_mes" id="valor_mes"></p>
+            <p>Taxa de juros ao ano esperada: <input type="number" name="taxa" id="taxa"></p>
+            <p>Quantos meses pretende investir? <input type="number" name="tempo" id="tempo"></p>
+            <button id="calcular" onclick="calcular()">calcular</button>
+            <button id="limpar" onclick="limpar()">limpar</button>
+        </div>
+        <div id="tabela">
+            <p>Mês a mês: </p>
+            <section id="resultado">
+                <table>
+                    <thead>
+                        <tr>
+                            <td>mês</td>
+                            <td>valor investido no mês</td>
+                            <td>valor sem juros</td>
+                            <td>valor com juros</td>
+                        </tr>
+                    </thead>
+                    <tbody id="resultado_tabela">
+                    </tbody>
+                </table>
+            </section>
+        </div>
+    </main>
+    <script src="script.js">
+        
+    </script>
+</body>
+</html>
